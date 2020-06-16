@@ -1,0 +1,7 @@
+
+
+---
+- hosts: apache
+  become_user: root
+  roles:
+    - apache
